@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveBox", "MoveBox\MoveBox.csproj", "{0BBCE9E5-6611-4BE7-AC05-564B4E0B639B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BBCE9E5-6611-4BE7-AC05-564B4E0B639B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBCE9E5-6611-4BE7-AC05-564B4E0B639B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBCE9E5-6611-4BE7-AC05-564B4E0B639B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBCE9E5-6611-4BE7-AC05-564B4E0B639B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05C4BCB6-17C7-4F40-9206-73979D812263}
+	EndGlobalSection
+EndGlobal
