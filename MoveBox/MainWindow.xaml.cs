@@ -1,13 +1,7 @@
-﻿using System.Text;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace MoveBox
 {
@@ -21,6 +15,11 @@ namespace MoveBox
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 按键事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
             // 首先判断按键的方位 比如上下左右
@@ -62,7 +61,7 @@ namespace MoveBox
                 index = index - 1 <= 9 ? index + 1 : index;
             }
 
-            // 讲border的背景色改成白色
+            // 将移动到的Border的背景色改成白色
             object control = gridContent.FindName("b" + index);
             if (control != null)
             {
