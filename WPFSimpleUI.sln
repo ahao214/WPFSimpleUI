@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveBox", "MoveBox\MoveBox.csproj", "{0BBCE9E5-6611-4BE7-AC05-564B4E0B639B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowUI", "WindowUI\WindowUI.csproj", "{FE7F1B6A-AE36-4641-B716-A8B58E7FA25A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowUI", "WindowUI\WindowUI.csproj", "{FE7F1B6A-AE36-4641-B716-A8B58E7FA25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliderUI", "SliderUI\SliderUI.csproj", "{E6C8FA1A-E0D8-4181-9ABD-DE68021CFE5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FE7F1B6A-AE36-4641-B716-A8B58E7FA25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE7F1B6A-AE36-4641-B716-A8B58E7FA25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE7F1B6A-AE36-4641-B716-A8B58E7FA25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C8FA1A-E0D8-4181-9ABD-DE68021CFE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C8FA1A-E0D8-4181-9ABD-DE68021CFE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C8FA1A-E0D8-4181-9ABD-DE68021CFE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C8FA1A-E0D8-4181-9ABD-DE68021CFE5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
